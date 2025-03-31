@@ -1,0 +1,19 @@
+Package: HelloWorld
+Type: Package
+Title: Calls Hello from Java Package
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Satyajit", "Mohanty",
+      email = "mohantysatyajit57@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: This is a simple example package that prints 'Hello, world!' to the console.
+Depends: R (>= 2.7.0), rJava (>= 0.5-0)
+SystemRequirements: Java (>= 1.5)
+License: GPL-3
+Packaged: 2014-09-04 13:17:36 UTC; tverbeke
+Repository: CRAN
+Encoding: UTF-8
+LazyData: true
